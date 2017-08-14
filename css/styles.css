@@ -1,0 +1,190 @@
+body{
+	background-color:#000;
+	margin:0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-transform:uppercase;
+}
+
+header {
+	text-align:center;
+}
+
+.clearfix:after{
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.navigation{
+	background-color:#363636;
+}
+
+nav{
+	width:1200px;
+	margin:0 auto;
+	overflow: auto;
+}
+
+a {
+	cursor:pointer;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px;
+}
+
+ul{
+	list-style:none;
+}
+
+ul li{
+	display:inline-block;
+}
+
+.pull-left{
+	float:left;
+}
+
+.pull-right{
+	float:right;
+}
+
+.main-menu a{
+    background: #827b7b;
+}
+
+.main-content{
+	position:relative;
+}
+
+.panel-container{
+    position: relative;
+    height: 600px;
+    margin-top: 25px;
+}
+
+.panel {
+    position: absolute;
+    z-index: -1;
+	-moz-transform: scale(.4);
+	-ms-transform: scale(.4);
+	-webkit-transform: scale(.4);
+	-o-transform: scale(.4);
+	transform: scale(.4);
+	-moz-transform-origin: left center;
+	-ms-transform-origin:  left center;
+	-webkit-transform-origin: left center;
+	transform-origin:  left center;
+}
+
+.first{
+	left:0;	
+}
+
+.second{
+	left:320px;
+}
+
+.third{
+	left:640px;
+}
+
+.fourth{
+	left:960px;
+}
+
+.active{
+    z-index: 0;
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+    left: 240px!important;
+}
+	
+.arrow{
+    position: absolute;
+	padding:0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 36px;
+    background: url(../images/arrows.png) no-repeat;
+}
+
+.left{
+	left: 180px;
+	background-position: 0;
+}
+.right{
+	right: 180px;
+	background-position: -25px 0;
+}
+
+.green{
+	background:#14a001;
+}
+
+
+/*  Masonry  */
+
+.grid { 	
+  background: #EEE;
+  width:800px;
+}
+
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 200px;
+}
+
+.grid-item {
+  height: 200px;
+  float: left;
+}
+
+.width-big { width:  400px; }
+.height-big { height: 400px; }
+
+/*  Masonry  End */
+
+
+.access{
+	text-align:center;
+	margin-top: 20px;
+}
+
+.access a{
+	display: inline-block;
+	padding: 12px 20px;
+    border-radius: 30px;
+	font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+	background: linear-gradient(to bottom,#12a000 0,#12a000 50%,#108900 50%,#108900 100%);
+}
+
+.dots{
+	text-align:center;
+	margin-top: 20px;
+}
+
+.dot {
+    height: 13px;
+    width: 13px;
+	display:inline-block;
+	border-radius: 50%;
+	background-color: #827b7b;
+}
+
+.white{
+	background-color: #fff;
+}
